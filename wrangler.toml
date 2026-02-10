@@ -20,3 +20,4 @@ NODE_VERSION = "22"  # 指定 Node 版本，避免依赖兼容问题
 
 # 兼容性配置（Pages 可选）
 compatibility_date = "2026-02-10"
+main = "src/main.ts"
