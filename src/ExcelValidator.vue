@@ -48,9 +48,9 @@
           <a-row>
             <a-col :span="24">
               <div class="config-note">
-                标记黄色列名称：合计和明细之和不一致时会标记该列为黄；
-                合计价格列名称：填写 excel 里是统计价格的列名称，作为分组字段；
-                明细价格列名称：填写单行价格的列名称，会用于求和。
+                <p>标记黄色列名称：合计和明细之和不一致时会标记该列为黄。</p>
+                <p>合计价格列名称：填写 Excel 里用于统计价格的列名称，作为分组字段。</p>
+                <p>明细价格列名称：填写单行价格的列名称，会用于求和。</p>
               </div>
             </a-col>
           </a-row>
@@ -402,10 +402,17 @@ async function validateAndDownload(file: File) {
   font-weight: 500;
 }
 .config-note {
+  background: #fffbe6; /* 淡黄色背景 */
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 200, 0, 0.12);
   font-size: 12px;
-  color: rgba(0, 0, 0, 0.65);
+  color: rgba(0, 0, 0, 0.75);
   line-height: 1.6;
   margin-top: 6px;
+}
+.config-note p {
+  margin: 4px 0;
 }
 .action-area {
   display: flex;
