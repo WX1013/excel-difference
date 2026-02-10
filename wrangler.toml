@@ -7,6 +7,9 @@ type = "pages"
 # 入口文件（如果是 Pages 项目，通常不需要此配置）
 main = "src/main.ts"
 
+# 必须放在顶部
+compatibility_date = "2026-02-10"
+
 # 静态文件输出目录
 dist_dir = "dist"
 
@@ -21,6 +24,3 @@ directory = "./dist"
 # 环境变量
 [vars]
 NODE_VERSION = "22"
-
-# 必须放在顶部
-compatibility_date = "2026-02-10"
