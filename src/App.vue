@@ -7,16 +7,14 @@
       <a-tab-pane key="column-compare" tab="列对比">
         <ColumnCompare />
       </a-tab-pane>
-      <a-tab-pane key="price-compare" tab="价格对比">
-        <PriceCompare />
-      </a-tab-pane>
+
     </a-tabs>
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref } from 'vue';
-import PriceCompare from './components/PriceCompare.vue';
+
 import ColumnSplit from './components/ColumnSplit.vue';
 import ColumnCompare from './components/ColumnCompare.vue';
 
